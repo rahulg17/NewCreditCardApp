@@ -30,7 +30,7 @@
 			
 				<p>
  </p>
-			<table style="color: #F08080;"  width="30%" cellpadding="3" align ="center">
+			<table style="color: #FFD700;"  width="30%" cellpadding="3" align ="center">
 				<!-- <tr><td  style="color: purple">SELECT CREDIT CARD TYPE</td>
 						<td><select id="creditCard" name="creditCard" style="background-color:pink; color:black;">
 								<option value="gold">GOLD</option>

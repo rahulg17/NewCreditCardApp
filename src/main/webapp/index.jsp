@@ -2,6 +2,11 @@
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+	<style>
+header {
+text-align: center;
+}
+</style>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<center><title>Credit Card Application</title></center>
@@ -42,7 +47,7 @@
 				</tr>	
 					<tbody>
 					<tr>
-						<td ><p><font size="4">Title</font></p></td>
+						<td >Title</td>
 						<td><select id="title" name="titleCust" style="background-color:pink; color:black;">
 								<option value="mr">Mr</option>
 								<option value="ms">Ms</option>
@@ -51,11 +56,11 @@
 						
 					</tr>
 					<tr>
-						<td><p><font size="4">User Name</font></p></td>
+						<td><p>User Name</td>
 						<td><input type="text"  name="name" value="" style="background-color:pink; color:black;" /></td>
 					</tr>
 					<tr>
-							<td><p><font size="4">Date OF Birth</font></p></td>
+							<td><p>Date OF Birth</td>
 						<td><input type="text" name="dob" value="" style="background-color:pink; color:black;" /></td>					
 					</tr>
 					<tr>

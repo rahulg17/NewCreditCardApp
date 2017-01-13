@@ -18,7 +18,7 @@
 	%>
 	<table  style="color: black;"  border ="2" align="center"   width="30%">
 		<tr>
-			<td colspan="2" align="center"><%="Welcome " + profile.getName() + " ! Your details are processed."%></td>
+			<td colspan="2" align="center"><%="WELCOME " + profile.getName() + " ! YOUR DETAILS ARE PROCESSED."%></td>
 		</tr>
 		<tr>
 			<td>NAME</td>

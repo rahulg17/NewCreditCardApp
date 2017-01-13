@@ -56,7 +56,7 @@
 			<td><%=profile.getNumber()%></td>
 		</tr>
 		<tr>
-			<td>ANUAL INCOME</td>
+			<td>ANNUAL INCOME</td>
 			<td><%=profile.getAnualIncome()%></td>
 		</tr>
  	      <tr>

@@ -29,7 +29,7 @@
 			<td><%=profile.getDob()%></td>
 		</tr>
 		<tr>
-			<td>PASSWORD NUMBER</td>
+			<td>PASSPORT NUMBER</td>
 			<td><%=profile.getPassNumber()%></td>
 		</tr>
 		<tr>
@@ -52,7 +52,7 @@
 			<td><%=profile.getCity()%></td>
 		</tr>
 <tr>
-			<td>NUMBER</td>
+			<td>MOBILE NUMBER</td>
 			<td><%=profile.getNumber()%></td>
 		</tr>
 		<tr>

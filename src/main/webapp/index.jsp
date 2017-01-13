@@ -47,7 +47,7 @@
 					<tbody>
 					<tr>
 						<td>TITLE</td>
-						<td><select id="title" name="titleCust" style="background-color:pink; color:#F08080;">
+						<td><select id="title" name="titleCust" style="background-color:pink; color:black;">
 								<option value="mr">Mr</option>
 								<option value="ms">Ms</option>
 								<option value="mrs">Mrs</option>

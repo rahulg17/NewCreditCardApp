@@ -21,46 +21,46 @@
 			<td colspan="2" align="center"><%="Welcome " + profile.getName() + " ! Your details are processed."%></td>
 		</tr>
 		<tr>
-			<td>Name</td>
+			<td>NAME/td>
 			<td><%=profile.getName()%></td>
 		</tr>
 		<tr>
-			<td>Date Of Birth</td>
+			<td>DATE OF BIRTH</td>
 			<td><%=profile.getDob()%></td>
 		</tr>
 		<tr>
-			<td>Passport Number</td>
+			<td>PASSWORD NUMBER</td>
 			<td><%=profile.getPassNumber()%></td>
 		</tr>
 		<tr>
-			<td>Nationality</td>
+			<td>NATIONALITY</td>
 			<td><%=profile.getNationality()%></td>
 		</tr>
 		<tr>
-			<td>Occupation</td>
+			<td>OCCUPATION/td>
 			<td><%=profile.getOccupation()%></td>
 		</tr>
 		
 		<tr>
-			<td>Address</td>
+			<td>ADDRESS</td>
 			<td><%=profile.getAddLine()%></td>
 		</tr>
 		
 		
 		<tr>
-			<td>City</td>
+			<td>CITY</td>
 			<td><%=profile.getCity()%></td>
 		</tr>
 <tr>
-			<td>Number</td>
+			<td>NUMBER</td>
 			<td><%=profile.getNumber()%></td>
 		</tr>
 		<tr>
-			<td>Anual Income</td>
+			<td>ANUAL INCOME</td>
 			<td><%=profile.getAnualIncome()%></td>
 		</tr>
  	      <tr>
-			<td>Credit Card Type</td>
+			<td>CREDIT CARD TYPE/td>
 			<td><%=profile.getCreditCard()%></td>
 		</tr>   
 	</table>

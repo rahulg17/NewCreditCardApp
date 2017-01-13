@@ -38,8 +38,10 @@
 					<option value="platinum">PLATINUM</option>
 					
 			</select></td></tr>
-			<tr>
-					<td style="color: brown;" width ="100%">PERSONAL DETAILS </td>
+			<p>
+ </p>
+				<tr>
+					<td style="color: brown;" width ="100%"><b>PERSONAL DETAILS </b></td>
 					
 				</tr>	
 					<tbody>
@@ -69,9 +71,10 @@
 						<td><input type="text" name="nationality" value="" style="background-color:pink; color:black;"/></td>
 					</tr>
 					
-				
+				<p>
+ </p>
 			<tr>
-					<td style="color: brown;">ADDRESS LINE </td>
+				<td style="color: brown;"><b>ADDRESS LINE</b> </td>
 					
 				</tr>
 			<tbody> 
@@ -93,9 +96,11 @@
 					<td>MOBILE NUMBER</td>
 					<td><input type="text" name="number" value=""style="background-color:pink; color:black;"></td>
 				</tr>
+				<p>
+ </p>
 				
 <tr>
-					<td style="color: brown;">OCCUPATION DETAILS </td>
+	<td style="color: brown;"><b>OCCUPATION DETAILS </b></td>
 					
 				</tr>
 				<tr>

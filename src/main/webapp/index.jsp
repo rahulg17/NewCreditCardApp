@@ -31,7 +31,7 @@
 				<p>
  </p>
 			<table style="color: black;"  width="30%" cellpadding="3" align ="center">
-				<tr><td  style="color: purple">Select Credit Card Type</td>
+				<tr><td  style="color: purple">SELECT CREDIT CARD TYPE</td>
 						<td><select id="creditCard" name="creditCard" style="background-color:pink; color:black;">
 								<option value="gold">GOLD</option>
 					<option value="silver">SILVER</option>

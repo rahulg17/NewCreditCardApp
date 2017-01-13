@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Credit Card Application</title>
+	<center><title>Credit Card Application</title></center>
 </head>
 
 <div class="header">
@@ -42,7 +42,7 @@
 				</tr>	
 					<tbody>
 					<tr>
-						<td ><p><font size="5">Title</font></p></td>
+						<td ><p><font size="4">Title</font></p></td>
 						<td><select id="title" name="titleCust" style="background-color:pink; color:black;">
 								<option value="mr">Mr</option>
 								<option value="ms">Ms</option>
@@ -51,19 +51,19 @@
 						
 					</tr>
 					<tr>
-						<td><p><font size="5">User Name</font></p></td>
+						<td><p><font size="4">User Name</font></p></td>
 						<td><input type="text"  name="name" value="" style="background-color:pink; color:black;" /></td>
 					</tr>
 					<tr>
-							<td><p><font size="5">Date OF Birth</font></p></td>
+							<td><p><font size="4">Date OF Birth</font></p></td>
 						<td><input type="text" name="dob" value="" style="background-color:pink; color:black;" /></td>					
 					</tr>
 					<tr>
-							<td><p><font size="5">Passport Number</font></p></td>
+							<td><p><font size="4">Passport Number</font></p></td>
 						<td><input type="text" name="passNumber" value="" style="background-color:pink; color:black;" /></td>					
 					</tr>
 					<tr>
-						<td><p><font size="5">Nationality</font></p></td>
+						<td><p><font size="4">Nationality</font></p></td>
 						<td><input type="text" name="nationality" value="" style="background-color:pink; color:black;"/></td>
 					</tr>
 					
@@ -75,20 +75,20 @@
 			<tbody> 
 				
 				<tr>
-					<td><p><font size="5">Address Line </font></p></td>
+					<td><p><font size="4">Address Line </font></p></td>
 					<td><input type="text" name="addLine" value="" style="background-color:pink; color:black;" ></td>
 				</tr>
 				<tr>
-					<td><p><font size="5">City</font></p></td>
+					<td><p><font size="4">City</font></p></td>
 					<td><input type="text" name="city" value="" style="background-color:pink; color:black;"></td>
 				</tr>
 				<tr>
-					<td><p><font size="5">Country</font></p></td>
+					<td><p><font size="4">Country</font></p></td>
 					<td><input type="text" name="country" value=""style="background-color:pink; color:black;"></td>
 				</tr>
 				
 				<tr>
-					<td><p><font size="5">Enter Mobile Number</font></p></td>
+					<td><p><font size="4">Enter Mobile Number</font></p></td>
 					<td><input type="text" name="number" value=""style="background-color:pink; color:black;"></td>
 				</tr>
 				
@@ -97,7 +97,7 @@
 					
 				</tr>
 				<tr>
-						<td><p><font size="5">Occupation</font></p></td>
+						<td><p><font size="4">Occupation</font></p></td>
 						<td><select id="occupation" name="occupation" style="background-color:pink; color:black;">
 								<option value="service">Service</option>
 								<option value="bussiness">Bussiness</option>
@@ -106,7 +106,7 @@
 						
 					</tr>
 				<tr>
-					<td><p><font size="5">Anual Income</font></p></td>
+					<td><p><font size="4">Anual Income</font></p></td>
 					<td><input type="text" name="anualIncome" value="" style="background-color:pink; color:black;"></td>
 				</tr>
 			</tbody>

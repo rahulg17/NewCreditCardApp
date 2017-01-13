@@ -30,7 +30,7 @@
 			
 				<p>
  </p>
-			<table style="color: #FFD700;"  width="30%" cellpadding="3" align ="center">
+			<table style="color: black;"  width="30%" cellpadding="3" align ="center">
 				<!-- <tr><td  style="color: purple">SELECT CREDIT CARD TYPE</td>
 						<td><select id="creditCard" name="creditCard" style="background-color:pink; color:black;">
 								<option value="gold">GOLD</option>
@@ -47,7 +47,7 @@
 					<tbody>
 					<tr>
 						<td>TITLE</td>
-						<td><select id="title" name="titleCust" style="background-color:pink; color:black;">
+						<td><select id="title" name="titleCust" style="background-color:white; color:black;">
 								<option value="mr">Mr</option>
 								<option value="ms">Ms</option>
 								<option value="mrs">Mrs</option>
@@ -56,19 +56,19 @@
 					</tr>
 					<tr>
 						<td>USER NAME</td>
-						<td><input type="text"  name="name" value="" style="background-color:pink; color:black;" /></td>
+						<td><input type="text"  name="name" value="" style="background-color:white; color:black;" /></td>
 					</tr>
 					<tr>
 							<td>DATE OF BIRTH</td>
-						<td><input type="text" name="dob" value="" style="background-color:pink; color:black;" /></td>					
+						<td><input type="text" name="dob" value="" style="background-color:white; color:black;" /></td>					
 					</tr>
 					<tr>
 							<td>PASSPORT NUMBER</td>
-						<td><input type="text" name="passNumber" value="" style="background-color:pink; color:black;" /></td>					
+						<td><input type="text" name="passNumber" value="" style="background-color:white; color:black;" /></td>					
 					</tr>
 					<tr>
 						<td>NATIONALITY</td>
-						<td><input type="text" name="nationality" value="" style="background-color:pink; color:black;"/></td>
+						<td><input type="text" name="nationality" value="" style="background-color:white; color:black;"/></td>
 					</tr>
 					
 				<p>
@@ -81,20 +81,20 @@
 				
 				<tr>
 					<td>ADDRESSS LINE </td>
-					<td><input type="text" name="addLine" value="" style="background-color:pink; color:black;" ></td>
+					<td><input type="text" name="addLine" value="" style="background-color:white; color:black;" ></td>
 				</tr>
 				<tr>
 					<td>CITY</td>
-					<td><input type="text" name="city" value="" style="background-color:pink; color:black;"></td>
+					<td><input type="text" name="city" value="" style="background-color:white; color:black;"></td>
 				</tr>
 				<tr>
 					<td>COUNTRY</td>
-					<td><input type="text" name="country" value=""style="background-color:pink; color:black;"></td>
+					<td><input type="text" name="country" value=""style="background-color:white; color:black;"></td>
 				</tr>
 				
 				<tr>
 					<td>MOBILE NUMBER</td>
-					<td><input type="text" name="number" value=""style="background-color:pink; color:black;"></td>
+					<td><input type="text" name="number" value=""style="background-color:white; color:black;"></td>
 				</tr>
 				<p>
  </p>
@@ -105,7 +105,7 @@
 				</tr>
 				<tr>
 						<td>OCCUPATION</td>
-						<td><select id="occupation" name="occupation" style="background-color:pink; color:black;">
+						<td><select id="occupation" name="occupation" style="background-color:white; color:black;">
 								<option value="service">Service</option>
 								<option value="bussiness">Bussiness</option>
 								
@@ -113,8 +113,8 @@
 						
 					</tr>
 				<tr>
-					<td>ANUAL INCOME</td>
-					<td><input type="text" name="anualIncome" value="" style="background-color:pink; color:black;"></td>
+					<td>ANNUAL INCOME</td>
+					<td><input type="text" name="anualIncome" value="" style="background-color:white; color:black;"></td>
 				</tr>
 			</tbody>
 	

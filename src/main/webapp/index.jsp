@@ -13,7 +13,7 @@
 <img src="">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<body background="Building_image.png">
+<body background="Building_image.jpg">
 
 
 		<center>

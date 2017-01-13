@@ -1,2 +1,1 @@
-# NewCreditCardApp
-New Credit Card Application
+# SummitDemo

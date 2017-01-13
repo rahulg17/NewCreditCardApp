@@ -16,7 +16,7 @@
 	<%
 		Profile profile = (Profile) request.getAttribute("cust");
 	%>
-	<table  style="color: black;"  align="center"  cellpadding="3"  width="30%">
+	<table  style="color: black;" align="center"  cellpadding="3"  width="30%">
 		<tr>
 			<td colspan="2" align="center"><%="WELCOME " + profile.getName() + " ! YOUR DETAILS ARE PROCESSED."%></td>
 		</tr>

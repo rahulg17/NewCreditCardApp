@@ -22,13 +22,7 @@
 	
 	<form name="Name Input Form" action="controller" method="post">
 			
-						<tr><td  style="color: purple">Select Credit Card Type</td>
-						<td><select id="creditCard" name="creditCard" style="background-color:pink; color:black;">
-								<option value="gold">GOLD</option>
-					<option value="silver">SILVER</option>
-					<option value="platinum">PLATINUM</option>
-					<option></option>
-			</select></td></tr>
+						
 				 
 				<p>
  </p>
@@ -36,7 +30,14 @@
 			
 				<p>
  </p>
-			<table style="color: black;"  width="30%" cellpadding="3">
+			<table style="color: black;"  width="30%" cellpadding="3" align ="center">
+				<tr><td  style="color: purple">Select Credit Card Type</td>
+						<td><select id="creditCard" name="creditCard" style="background-color:pink; color:black;">
+								<option value="gold">GOLD</option>
+					<option value="silver">SILVER</option>
+					<option value="platinum">PLATINUM</option>
+					<option></option>
+			</select></td></tr>
 			<tr>
 					<td style="color: brown;" width ="100%">PERSONAL DETAILS </td>
 					

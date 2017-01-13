@@ -6,17 +6,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Credit Card Application</title>
+<title>User Logged Successfully </title>
 </head>
-<body background ="background_image.jpg">
+<body background ="response_image.jpg">
 <center>
-		<h1 style="color: red;">Credit Card Application Details</h1>
+		<h1 style="color: white;">Credit Card Application Details</h1>
 	</center>
 <body>
 	<%
 		Profile profile = (Profile) request.getAttribute("cust");
 	%>
-	<table align="center"  border="1" width="30%">
+	<table  style="color: black;"  border ="2" align="center"   width="30%">
 		<tr>
 			<td colspan="2" align="center"><%="Welcome " + profile.getName() + " ! Your details are processed."%></td>
 		</tr>
@@ -25,19 +25,47 @@
 			<td><%=profile.getName()%></td>
 		</tr>
 		<tr>
+			<td>Date Of Birth</td>
+			<td><%=profile.getDob()%></td>
+		</tr>
+		<tr>
+			<td>Passport Number</td>
+			<td><%=profile.getPassNumber()%></td>
+		</tr>
+		<tr>
+			<td>Nationality</td>
+			<td><%=profile.getNationality()%></td>
+		</tr>
+		<tr>
+			<td>Occupation</td>
+			<td><%=profile.getOccupation()%></td>
+		</tr>
+		
+		<tr>
+			<td>Address</td>
+			<td><%=profile.getAddLine()%></td>
+		</tr>
+		
+		
+		<tr>
+			<td>City</td>
+			<td><%=profile.getCity()%></td>
+		</tr>
+<tr>
 			<td>Number</td>
 			<td><%=profile.getNumber()%></td>
 		</tr>
 		<tr>
-			<td>City</td>
-			<td><%=profile.getCity()%></td>
-		</tr> 
-
- 	<tr>
-			<td>Credit Card</td>
-			<td><%=profile.getCreditCard()%></td>
+			<td>Anual Income</td>
+			<td><%=profile.getAnualIncome()%></td>
 		</tr>
+ 	      <tr>
+			<td>Credit Card Type</td>
+			<td><%=profile.getCreditCard()%></td>
+		</tr>   
 	</table>
 
 </body>
+
+
 </html>

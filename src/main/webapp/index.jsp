@@ -6,7 +6,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Credit Card Application</title>
 </head>
+<style type="text/css">
+html, 
+body {
+height: 100%;
+}
 
+body {
+background-image: url(/pix/samples/bg1.gif);
+background-repeat: no-repeat;
+background-size: contain;
+}
 <div class="header">
  
  </div>

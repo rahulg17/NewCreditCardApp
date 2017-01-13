@@ -21,7 +21,7 @@
 			<td colspan="2" align="center"><%="Welcome " + profile.getName() + " ! Your details are processed."%></td>
 		</tr>
 		<tr>
-			<td>NAME/td>
+			<td>NAME</td>
 			<td><%=profile.getName()%></td>
 		</tr>
 		<tr>
@@ -37,7 +37,7 @@
 			<td><%=profile.getNationality()%></td>
 		</tr>
 		<tr>
-			<td>OCCUPATION/td>
+			<td>OCCUPATION</td>
 			<td><%=profile.getOccupation()%></td>
 		</tr>
 		
@@ -60,7 +60,7 @@
 			<td><%=profile.getAnualIncome()%></td>
 		</tr>
  	      <tr>
-			<td>CREDIT CARD TYPE/td>
+			<td>CREDIT CARD TYPE</td>
 			<td><%=profile.getCreditCard()%></td>
 		</tr>   
 	</table>

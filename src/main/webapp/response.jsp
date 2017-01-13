@@ -10,7 +10,7 @@
 </head>
 <body background ="Building_image.jpg">
 <center>
-		<h1 style="color: white;">Credit Card Application Details</h1>
+		<h2 style="color: blue;">CREDIT CARD APPLICATION DETAILS</h2>
 	</center>
 <body>
 	<%
@@ -20,6 +20,10 @@
 		<tr>
 			<td colspan="2" align="center"><%="WELCOME " + profile.getName() + " ! YOUR DETAILS ARE PROCESSED."%></td>
 		</tr>
+		<tr>
+					<td style="color: brown;" width ="100%"><b><p><font size="3" >PERSONAL DETAILS </font></p></b></td>
+
+				</tr>	
 		<tr>
 			<td>NAME</td>
 			<td><%=profile.getName()%></td>
@@ -36,16 +40,19 @@
 			<td>NATIONALITY</td>
 			<td><%=profile.getNationality()%></td>
 		</tr>
-		<tr>
-			<td>OCCUPATION</td>
-			<td><%=profile.getOccupation()%></td>
-		</tr>
 		
+		<tr>
+				<td style="color: brown;"><b><p><font size="3"  >ADDRESS LINE</font></p></b> </td>
+					
+				</tr>
 		<tr>
 			<td>ADDRESS</td>
 			<td><%=profile.getAddLine()%></td>
 		</tr>
-		
+		<tr>
+			<td>COUNTRY</td>
+			<td><%=profile.getCountry()%></td>
+		</tr>
 		
 		<tr>
 			<td>CITY</td>
@@ -54,6 +61,15 @@
 <tr>
 			<td>MOBILE NUMBER</td>
 			<td><%=profile.getNumber()%></td>
+		</tr>
+		<tr>
+	<td style="color: brown;"><b><p><font size="3">OCCUPATION DETAILS </font>	</p></b></td>
+			
+				</tr>
+		
+		<tr>
+			<td>OCCUPATION</td>
+			<td><%=profile.getOccupation()%></td>
 		</tr>
 		<tr>
 			<td>ANNUAL INCOME</td>

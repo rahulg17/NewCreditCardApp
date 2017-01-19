@@ -15,6 +15,7 @@
 
 <body background="Building_image.jpg">
 
+<!--  this is test - Vinod -->
 
 		<center>
 		<h2 style="color: blue;">HSBC CREDIT CARD APPLICATION FORM</h2>

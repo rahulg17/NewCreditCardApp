@@ -13,6 +13,8 @@
 		<h2 style="color: blue;">CREDIT CARD APPLICATION DETAILS</h2>
 	</center>
 <body>
+
+<!--  this is test - Vinod -->
 	<%
 		Profile profile = (Profile) request.getAttribute("cust");
 	%>

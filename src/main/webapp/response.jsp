@@ -23,7 +23,7 @@
 		<tr>
 					<td style="color: brown;" width ="100%"><b><p><font size="3" >PERSONAL DETAILS </font></p></b></td>
 
-				</tr>	
+			</tr>	
 		<tr>
 			<td>NAME</td>
 			<td><%=profile.getName()%></td>

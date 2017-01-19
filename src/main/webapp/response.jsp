@@ -76,11 +76,11 @@
 		<tr>
 			<td>ANNUAL INCOME</td>
 			<td><%=profile.getAnualIncome()%></td>
-	<%-- 	</tr>
+		</tr>
  	          <tr>
 			<td>CREDIT CARD TYPE</td>
 			<td><%=profile.getCreditCard()%></td>
-		</tr>   --%>
+		</tr>  
 	</table>
 
 </body>

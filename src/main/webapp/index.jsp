@@ -39,7 +39,7 @@
 					<option value="silver">SILVER</option>
 					<option value="platinum">PLATINUM</option>
 					</select></td></tr> 
-			<p>
+			<p> 
  </p>
 				<tr>
 					<td style="color: brown;" width ="100%"><b><p><font size="3" >PERSONAL DETAILS </font></p></b></td>

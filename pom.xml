@@ -15,6 +15,15 @@
     <sonar.dynamic>reuseReports</sonar.dynamic>
 
    </properties>
+   
+   <distributionManagement>
+    <repository>
+      <id>nexus-snapshots</id>
+      <url>http://vm-confluence.eastus.cloudapp.azure.com:8081/repository/maven-snapshots/</url>
+      
+    </repository>
+    
+  </distributionManagement>
    <dependencies>
       <dependency>
          <groupId>junit</groupId>
@@ -57,6 +66,19 @@
                <sonar.sources>src/main/java</sonar.sources>
             </configuration>
          </plugin>
+         <plugin>
+   <artifactId>maven-deploy-plugin</artifactId>
+   <version>2.8.1</version>
+   <executions>
+      <execution>
+         <id>default-deploy</id>
+         <phase>deploy</phase>
+         <goals>
+            <goal>deploy</goal>
+         </goals>
+      </execution>
+   </executions>
+</plugin>
       </plugins>
       <finalName>CreditCardApp</finalName>
    </build>

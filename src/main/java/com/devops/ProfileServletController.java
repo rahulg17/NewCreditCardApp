@@ -110,7 +110,7 @@ public class ProfileServletController extends HttpServlet {
         Matcher m = p.matcher(str);
         boolean b = m.find();
         try {
-            Thread.sleep(200);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
         }
         return b;

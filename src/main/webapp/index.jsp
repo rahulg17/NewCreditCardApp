@@ -21,7 +21,7 @@
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <main class="post-content">
-<body background=url(http://vm-dev.eastus.cloudapp.azure.com:8080/CreditCardApp/Building_image.jpg) >
+<body background="Building_image.jpg">
 
 
 <a name="top"></a>

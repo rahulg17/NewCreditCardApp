@@ -139,7 +139,7 @@
 		<td>
 			<input style="text-align: right;" id="submit-button" type="submit" value="SUBMIT" />
 			<!-- <a class="fancy_button" id="submit-button" href="javascript:submitFunction();" runat="server" style="text-decoration: none;" target="_blank"><span style="background-color: #FF0000; width: 100px">SUBMIT</span></a> -->
-		</td>
+		</td> 
                  </table>
 	</form>
 </body>

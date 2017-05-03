@@ -86,7 +86,7 @@ public class ProfileServletController extends HttpServlet {
         }
     }
     
-    public synchronized void validateName(final String s) {
+    public  void validateName(final String s) {
         if (s == null || s.trim().isEmpty()) {
             System.out.println("Incorrect format of string");
             throw new RuntimeException();
@@ -105,7 +105,7 @@ public class ProfileServletController extends HttpServlet {
 
     }
     
-     private synchronized boolean checkSpecial(final String str) {
+     private  boolean checkSpecial(final String str) {
         Pattern p = Pattern.compile("[^A-Za-z0-9]");
         Matcher m = p.matcher(str);
         boolean b = m.find();

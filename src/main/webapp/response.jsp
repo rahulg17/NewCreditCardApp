@@ -13,7 +13,7 @@
 		<h2 style="color: blue;">CREDIT CARD APPLICATION DETAILS</h2>
 	</center>
 <body>
-
+<a name="top"></a>
 
 	<%
 		Profile profile = (Profile) request.getAttribute("cust");
@@ -78,10 +78,10 @@
 			<td><%=profile.getAnualIncome()%></td>
 		</tr>
 		
-	 	 <%--  <tr>
+	 	   <%--  <tr>
 				<td>CREDIT CARD TYPE</td>
 				<td><%=profile.getCreditCard()%></td>
-			</tr> --%>
+			</tr>  --%>
 			
 		  
 	</table>

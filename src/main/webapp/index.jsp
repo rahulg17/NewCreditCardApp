@@ -5,15 +5,20 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Credit Card Application</title>
+<style type="text/css">
+.post-content {
+	background-image: url(http://vm-dev.eastus.cloudapp.azure.com:8080/CreditCardApp/Building_image.jpg);
+}
+</style>
 </head>
 
 <div class="header">
  
  </div>
-<img src="">
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<body background="Building_image.jpg">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<main class="post-content">
+<body>
 
 
 <a name="top"></a>
@@ -133,5 +138,5 @@
 </table>
 	</form>
 </body>
-
+</main>
 </html>

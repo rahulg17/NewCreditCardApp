@@ -109,10 +109,10 @@ public class ProfileServletController extends HttpServlet {
         Pattern p = Pattern.compile("[^A-Za-z0-9]");
         Matcher m = p.matcher(str);
         boolean b = m.find();
-        try {
+       /* try {
             Thread.sleep(200);
         } catch (InterruptedException e) {
-        }
+        }*/
         return b;
     }
 }

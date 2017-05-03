@@ -10,13 +10,18 @@
 	background-image: url(http://vm-dev.eastus.cloudapp.azure.com:8080/CreditCardApp/Building_image.jpg);
 }
 </style>
+<script>
+	function submitFunction() {    
+       		document.getElementById('submit-form').submit();
+   	}
+</script>
 </head>
 
 
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <main class="post-content">
-<body>
+<body background=url(http://vm-dev.eastus.cloudapp.azure.com:8080/CreditCardApp/Building_image.jpg) >
 
 
 <a name="top"></a>
@@ -24,7 +29,7 @@
 		<h2 style="color: blue;">HSBC CREDIT CARD APPLICATION FORM</h2>
 	</center>
 	
-	<form name="Name Input Form" action="controller" method="post">
+	<form id="submit-form" name="Name Input Form" action="controller" method="post">
 					
 				 
 				<p>
@@ -131,10 +136,12 @@
 		<p>
  </p>
 		<table  width =200 align="center">
-						<td><input style="text-align: right;" type="submit"
-							value="SUBMIT" /></td>
-</table>
+		<td>
+			<!--input style="text-align: right;" type="submit" value="SUBMIT" /-->
+			<a class="fancy_button" id="A2" href="javascript:submitFunction();" runat="server" style="text-decoration: none;" target="_blank"><span style="background-color: #FF0000; width: 100px">SUBMIT</span></a>
+		</td>
+                 </table>
 	</form>
 </body>
-</main>
+
 </html>

@@ -12,9 +12,7 @@
 </style>
 </head>
 
-<div class="header">
- 
- </div>
+
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <main class="post-content">

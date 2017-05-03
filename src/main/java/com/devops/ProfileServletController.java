@@ -2,6 +2,8 @@ package com.devops;
 
 import java.sql.Connection;
 import java.sql.Statement;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -31,7 +33,7 @@ public class ProfileServletController extends HttpServlet {
             String occupation = request.getParameter("occupation");
             String anualIncome = request.getParameter("anualIncome");
 
-
+            this.validateName(name);
             String creditCard = request.getParameter("creditCard");
             System.out.println("**** creditCard = " + creditCard);
 
@@ -82,6 +84,36 @@ public class ProfileServletController extends HttpServlet {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+    
+    public synchronized void validateName(final String s) {
+        if (s == null || s.trim().isEmpty()) {
+            System.out.println("Incorrect format of string");
+            throw new RuntimeException();
+        }
+        StringBuffer buffer = new StringBuffer();
+        char[] strArray = s.toCharArray();
+        boolean isSpecial = false;
+        for (int i = 0; i < strArray.length; i++) {
+            buffer.append(strArray[i]);
+            isSpecial = checkSpecial(buffer.toString());
+
+        }
+        if (isSpecial) {
+            throw new RuntimeException("Name contains special characters");
+        }
+
+    }
+    
+     private synchronized boolean checkSpecial(final String str) {
+        Pattern p = Pattern.compile("[^A-Za-z0-9]");
+        Matcher m = p.matcher(str);
+        boolean b = m.find();
+        try {
+            Thread.sleep(200);
+        } catch (InterruptedException e) {
+        }
+        return b;
     }
 }
 /*

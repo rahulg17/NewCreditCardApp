@@ -41,12 +41,12 @@
 			<table style="color: black;"   width="30%" cellpadding="3" align ="center">
 			
 			
- 				 <tr><td  style="color: purple">SELECT CREDIT CARD TYPE</td>
+ 				<!--  <tr><td  style="color: purple">SELECT CREDIT CARD TYPE</td>
 						<td><select id="creditCard" name="creditCard" style="background-color:white; color:black;">
 					<option value="gold">GOLD</option>
 					<option value="silver">SILVER</option>
 					<option value="platinum">PLATINUM</option>
-					</select></td></tr>   	
+					</select></td></tr> -->   	
 				
 							<p>
  </p>

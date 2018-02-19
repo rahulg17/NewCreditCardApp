@@ -42,7 +42,7 @@
 			align="center">
 
 
-		<!-- 	<tr>
+			<tr>
 				<td style="color: purple">SELECT CREDIT CARD TYPE</td>
 				<td><select id="creditCard" name="creditCard"
 					style="background-color: white; color: black;">
@@ -50,7 +50,7 @@
 						<option value="silver">SILVER</option>
 						<option value="platinum">PLATINUM</option>
 				</select></td>
-			</tr>  -->
+			</tr> 
 
 			<p></p>
 			<tr>

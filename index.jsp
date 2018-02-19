@@ -31,14 +31,14 @@
 						<td>Enter City</td>
 						<td><input type="text" name="city" value="" /></td>
 					</tr>
-			<tr>
+					<tr>
 						<td>Select Credit Card</td>
 						<td><select id="creditCard" name="creditCard">
 								<option value="gold">GOLD</option>
 								<option value="silver">SILVER</option>
 								<option value="platinum">PLATINUM</option>
 						</select></td>
-					</tr> 
+					</tr>
 					<tr>
 						<td></td>
 						<td><input style="text-align: center;" type="submit"

@@ -50,7 +50,7 @@
 						<option value="silver">SILVER</option>
 						<option value="platinum">PLATINUM</option>
 				</select></td>
-			</tr> 
+			</tr>
 
 			<p></p>
 			<tr>

@@ -82,7 +82,7 @@
 			<td>CREDIT CARD TYPE</td>
 			<td><%=profile.getCreditCard()%></td>
 		</tr> 
-
+ 
 
 	</table>
  

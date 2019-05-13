@@ -77,11 +77,11 @@
 			<td>ANNUAL INCOME</td>
 			<td><%=profile.getAnualIncome()%></td>
 		</tr>
-		<!-- Enable Credit card app
+		<!-- Enable Credit card appv -->	
 		<tr>
 			<td>CREDIT CARD TYPE</td>
 			<td><%=profile.getCreditCard()%></td>
-		</tr>   -->	
+		</tr>   
  
 
 	</table>

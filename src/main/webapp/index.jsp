@@ -41,7 +41,7 @@
 		<table style="color: black;" width="30%" cellpadding="3"
 			align="center">
 
-		<!-- Enable Credit card app  -->	
+		<!-- Enable Credit card app 	
 			  <tr>
 				<td style="color: purple">SELECT CREDIT CARD TYPE</td>
 				<td><select id="creditCard" name="creditCard"

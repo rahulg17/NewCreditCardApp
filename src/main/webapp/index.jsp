@@ -51,7 +51,7 @@
 						<option value="platinum">PLATINUM</option>
 				</select></td>  
 			</tr>  
-
+			 -->
 			<p></p>
 			<tr>
 				<td style="color: brown;" width="100%"><b><p>
